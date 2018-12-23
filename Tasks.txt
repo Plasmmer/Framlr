@@ -1,0 +1,9 @@
+Window buttons:
+- fullscreen() to declare its full screen
+- not-fullscreen() to declare its not full screen
+- maximize() to declare its maximized
+- restore() to declare its restored
+
+Theme:
+- flat() to declare it haves solid background
+- translucid() to declare it haves translucid background
