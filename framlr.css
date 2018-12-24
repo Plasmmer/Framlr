@@ -1,0 +1,29 @@
+.framlr {
+    /* border: 1px solid #0094D2; */
+	border: 1px solid #000;
+}
+
+.window_top {
+    user-select: none;
+    -webkit-app-region: drag;
+    height: 34px;
+    /* background: #00A2E8;
+    border-bottom: 1px solid #0094D2; */
+	background: #222;
+    border-bottom: 1px solid #000;
+}
+
+.window_title {
+    font-size: 16px;
+    line-height: 32px;
+    position: relative;
+    left: 5px;
+    color: #fff;
+}
+
+.window_icon {
+	-webkit-app-region: no-drag;
+    position: relative;
+    left: 4px;
+    top: -1px;
+}
