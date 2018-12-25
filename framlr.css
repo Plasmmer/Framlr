@@ -1,11 +1,17 @@
 .wm-window {
     /* border: 1px solid #0094D2; */
+	position: absolute;
+	z-index: 2000;
 	border: 1px solid #082510;
+	height: 100%!important;
 }
+
+#wm-content{height:calc(100% - 34px)!important}
 
 .wm-window-title {
     user-select: none;
     -webkit-app-region: drag;
+	cursor: default;
     height: 34px;
     /* background: #00A2E8;
     border-bottom: 1px solid #0094D2; */
@@ -58,6 +64,8 @@
 .wm-maximize{background:url(img/maximize.png)!important}
 .wm-maximize:hover{background-position-x:-25px!important}
 .wm-maximize:active{background-position-x:-50px!important}
+
+.wm-maximize.restore{background-position-y:-25px!important}
 
 .wm-close{background:url(img/close.png)!important}
 .wm-close:hover{background-position-x:-25px!important}
