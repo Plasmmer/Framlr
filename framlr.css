@@ -29,3 +29,35 @@
     left: 4px;
     top: -1px;
 }
+
+.wm-button-group {
+    float: right;
+	margin-top: 3px;
+    margin-right: 3px;
+}
+
+.wm-button {
+    width: 27px!important;
+    height: 27px!important;
+    padding: 0px!important;
+    border: 1px solid #095533!important;
+    border-radius: 0px!important;
+}
+.wm-button:hover{border:1px solid #082510!important}
+.wm-button:active {
+	filter: none!important;
+    border: 1px solid #095533!important;
+}
+.wm-button:focus{outline:none!important}
+
+.wm-minimize{background:url(img/minimize.png)!important}
+.wm-minimize:hover{background-position-x:-25px!important}
+.wm-minimize:active{background-position-x:-50px!important}
+
+.wm-maximize{background:url(img/maximize.png)!important}
+.wm-maximize:hover{background-position-x:-25px!important}
+.wm-maximize:active{background-position-x:-50px!important}
+
+.wm-close{background:url(img/close.png)!important}
+.wm-close:hover{background-position-x:-25px!important}
+.wm-close:active{background-position-x:-50px!important}
