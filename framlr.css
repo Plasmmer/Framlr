@@ -1,9 +1,9 @@
-.framlr {
+.wm-window {
     /* border: 1px solid #0094D2; */
 	border: 1px solid #082510;
 }
 
-.window_top {
+.wm-window-title {
     user-select: none;
     -webkit-app-region: drag;
     height: 34px;
