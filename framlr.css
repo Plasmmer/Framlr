@@ -1,16 +1,8 @@
 body{margin:inherit;background:transparent}
 
-.wm-window {
-    /* border: 1px solid #0094D2; */
-	/* position: absolute; */
-	/* z-index: 2000; */
-	border: 1px solid #082510;
-	/* height: 100%!important; */
-	height: calc(100% - 2px)!important;
-	border-radius:10px;
-}
+.wm-window{height:calc(100% - 2px)!important}
 
-#wm-content{overflow: auto;/* height:calc(100% - 34px)!important */height: calc(100% - 36px)!important;}
+#wm-content{overflow:auto;/* height:calc(100% - 34px)!important */height: calc(100% - 36px)!important}
 
 .wm-window-title {
     user-select: none;
@@ -20,9 +12,7 @@ body{margin:inherit;background:transparent}
     /* background: #00A2E8;
     border-bottom: 1px solid #0094D2; */
 	background: #054227;
-    border-bottom: 1px solid #082510;
-    border-top-left-radius:10px;
-    border-top-right-radius:10px;
+    border-bottom: 1px solid #082510
 }
 
 #window_title {
@@ -32,21 +22,21 @@ body{margin:inherit;background:transparent}
     left: 5px;
     color: #fff;
 	font-family: Calibri,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
-    font-weight: bold;
+    font-weight: bold
 }
 
 #window_icon {
 	-webkit-app-region: no-drag;
     position: relative;
     left: 4px;
-    top: -1px;
+    top: -1px
 }
 
 .wm-button-group {
 	-webkit-app-region: no-drag;
     float: right;
 	margin-top: 3px;
-    margin-right: 3px;
+    margin-right: 3px
 }
 
 .wm-button {
@@ -54,12 +44,12 @@ body{margin:inherit;background:transparent}
     height: 27px!important;
     padding: 0px!important;
     border: 1px solid #095533!important;
-    border-radius: 0px!important;
+    border-radius: 0px!important
 }
 .wm-button:hover{border:1px solid #082510!important}
 .wm-button:active {
 	filter: none!important;
-    border: 1px solid #095533!important;
+    border: 1px solid #095533!important
 }
 .wm-button:focus{outline:none!important}
 
@@ -76,3 +66,6 @@ body{margin:inherit;background:transparent}
 .wm-close{background:url(img/close.png)!important}
 .wm-close:hover{background-position-x:-25px!important}
 .wm-close:active{background-position-x:-50px!important}
+
+.wm-window.framed{border-radius:10px;/*border:1px solid #0094D2;*/border:1px solid #082510}
+.wm-window-title.framed{border-top-left-radius:10px;border-top-right-radius:10px}
