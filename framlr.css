@@ -1,12 +1,16 @@
+body{margin:inherit;background:transparent}
+
 .wm-window {
     /* border: 1px solid #0094D2; */
-	position: absolute;
-	z-index: 2000;
+	/* position: absolute; */
+	/* z-index: 2000; */
 	border: 1px solid #082510;
-	height: 100%!important;
+	/* height: 100%!important; */
+	height: calc(100% - 2px)!important;
+	border-radius:10px;
 }
 
-#wm-content{height:calc(100% - 34px)!important}
+#wm-content{/* height:calc(100% - 34px)!important */height: calc(100% - 36px)!important;}
 
 .wm-window-title {
     user-select: none;
@@ -17,6 +21,8 @@
     border-bottom: 1px solid #0094D2; */
 	background: #054227;
     border-bottom: 1px solid #082510;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
 }
 
 #window_title {
