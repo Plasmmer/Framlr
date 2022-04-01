@@ -58,6 +58,7 @@ body{margin:inherit;background:transparent}
 .wm-button.wm-maximize{width:33px!important}
 .wm-button.wm-fullscreen{width:33px!important}
 .wm-button.wm-close{width:34px!important}
+.wm-button.wm-hotspot{width:34px!important}
 
 .wm-minimize{background:url(img/minimize.png)!important}
 .wm-minimize:hover{background-position-x:-33px!important}
@@ -76,6 +77,10 @@ body{margin:inherit;background:transparent}
 .wm-close{background:url(img/close.png)!important}
 .wm-close:hover{background-position-x:-34px!important}
 .wm-close:active{background-position-x:-68px!important}
+
+.wm-hotspot{background:url(img/hotspot.png)!important}
+.wm-hotspot:hover{background-position-x:-34px!important}
+.wm-hotspot:active{background-position-x:-68px!important}
 
 .wm-window.framed{/*border-radius:10px;*//*border:1px solid #0094D2;*/border:1px solid #0094d2}
 .wm-window-title.framed{/*border-top-left-radius:10px;border-top-right-radius:10px*/}

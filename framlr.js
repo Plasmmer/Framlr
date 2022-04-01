@@ -78,6 +78,37 @@
                     var window = BrowserWindow.getFocusedWindow();
                     window.close();
                 });
+                
+                // Hotspot button
+                document.getElementById("hotspot").addEventListener("click", (e) => {
+                    var window = BrowserWindow.getFocusedWindow();
+                    window.minimize();
+                });
+                document.getElementById("hotspot").addEventListener("contextmenu", (e) => {
+                    var window = BrowserWindow.getFocusedWindow();
+                    if(window.isMaximized()){
+                        window.unmaximize();
+			document.getElementById("maximize").classList.remove("restore");
+			document.getElementById("wm-window").classList.add("framed");
+		        document.getElementById("wm-window-title").classList.add("framed");
+                    }else{
+                        window.maximize();
+			document.getElementById("maximize").classList.add("restore");
+			document.getElementById("wm-window").classList.remove("framed");
+		        document.getElementById("wm-window-title").classList.remove("framed");
+                    }
+                });
+                document.getElementById("hotspot").addEventListener("auxclick", (e) => {
+                    console.log(e.button);
+                    e.preventDefault();
+                    if (e.button == 1) {
+                        //console.log("Middle/wheel click");
+                        var window = BrowserWindow.getFocusedWindow();
+                        window.close();
+                    }
+                    //var window = BrowserWindow.getFocusedWindow();
+                    //window.close();
+                });
             };
 
             document.onreadystatechange =  () => {
