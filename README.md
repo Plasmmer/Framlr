@@ -6,7 +6,7 @@ There's a framework even for that!
 
 No need to rebuild the wheel for every Electron app you develop.
 
-Framlr is a window frame framework to be used on Electron apps with frameless windows.
+Framlr is a window frame boilerplate to be used on Electron apps with frameless windows.
 
 ## Screenshots
 
