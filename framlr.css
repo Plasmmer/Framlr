@@ -56,6 +56,7 @@ body{margin:inherit;background:transparent}
 
 .wm-button.wm-minimize{width:33px!important}
 .wm-button.wm-maximize{width:33px!important}
+.wm-button.wm-fullscreen{width:33px!important}
 .wm-button.wm-close{width:34px!important}
 
 .wm-minimize{background:url(img/minimize.png)!important}
@@ -65,8 +66,12 @@ body{margin:inherit;background:transparent}
 .wm-maximize{background:url(img/maximize.png)!important}
 .wm-maximize:hover{background-position-x:-33px!important}
 .wm-maximize:active{background-position-x:-66px!important}
-
 .wm-maximize.restore{background-position-y:-23px!important}
+
+.wm-fullscreen{background:url(img/fullscreen.png)!important}
+.wm-fullscreen:hover{background-position-x:-33px!important}
+.wm-fullscreen:active{background-position-x:-66px!important}
+.wm-fullscreen.restore{background-position-y:-23px!important}
 
 .wm-close{background:url(img/close.png)!important}
 .wm-close:hover{background-position-x:-34px!important}
@@ -74,3 +79,5 @@ body{margin:inherit;background:transparent}
 
 .wm-window.framed{/*border-radius:10px;*//*border:1px solid #0094D2;*/border:1px solid #0094d2}
 .wm-window-title.framed{/*border-top-left-radius:10px;border-top-right-radius:10px*/}
+
+.hidden{display:none}
