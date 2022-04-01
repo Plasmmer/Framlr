@@ -67,5 +67,5 @@ body{margin:inherit;background:transparent}
 .wm-close:hover{background-position-x:-25px!important}
 .wm-close:active{background-position-x:-50px!important}
 
-.wm-window.framed{border-radius:10px;/*border:1px solid #0094D2;*/border:1px solid #082510}
-.wm-window-title.framed{border-top-left-radius:10px;border-top-right-radius:10px}
+.wm-window.framed{/*border-radius:10px;*//*border:1px solid #0094D2;*/border:1px solid #082510}
+.wm-window-title.framed{/*border-top-left-radius:10px;border-top-right-radius:10px*/}
